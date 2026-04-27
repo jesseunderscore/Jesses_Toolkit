@@ -1,2 +1,67 @@
-# Jesse-s-Toolkit
-Toolkit I made for myself to assist with game development.
+# Jesse's Toolkit
+
+My desktop suite built for developers (specifically Roblox).
+
+---
+
+## Features
+
+| Tool | Description |
+|------|-------------|
+| **Alpha Fixer** | Fixes transparent PNG fringing and colour bleeding on edges |
+| **Game Planner** | Visual node-based canvas for planning your games |
+| **Notes** | Persistent tabbed notes for dev thoughts, scripts, and references |
+| **Image Compressor** | Batch compress images without leaving the app |
+| **Gamepass Maker** | Build and organise your Roblox gamepass layouts |
+| **Texture Tiler** | Load any image and tile it into a repeating grid with rotation and spacing controls |
+| **Appearance** | multiple themes: Void, Ocean, Emerald, Crimson, Amber, Camila, Jesse |
+
+---
+
+## Setup
+
+No installation required.
+
+1. Download the latest release zip
+2. Extract the folder anywhere on your PC
+3. Run `JessesToolkit.exe`
+
+No Python, no dependencies, nothing to install.
+
+---
+
+## Data & Save Files
+
+All data is stored locally in a `JTdata/` folder, created automatically next to the `.exe` on first launch.
+
+```
+JessesToolkit/
+├── JessesToolkit.exe
+├── JesseToolkitIcon.ico
+└── JTdata/
+    ├── notes.json
+    ├── settings.json
+    ├── appearance.json
+    ├── planners/
+    └── gamepasses/
+```
+
+To wipe your data manually, delete the `JTdata/` folder. The app will regenerate it fresh on next launch.
+
+---
+
+## Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl + Z` | Undo (Game Planner) |
+| `Ctrl + Y` | Redo (Game Planner) |
+| `Ctrl + V` | Paste image or text as node |
+| `Double-click` | New node on canvas |
+| `Right-drag` | Pan the canvas |
+| `Scroll` | Zoom in / out |
+| `Del` | Delete selected node |
+
+---
+
+Made by **@jessexlr** — find me on Discord.
