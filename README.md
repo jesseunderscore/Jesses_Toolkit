@@ -26,7 +26,7 @@ No installation required.
 2. Extract the folder anywhere on your PC
 3. Run `JessesToolkit.exe`
 
-No Python, no dependencies, nothing to install.
+Dependencies are in the lib folder, nothing to install though.
 
 ---
 
