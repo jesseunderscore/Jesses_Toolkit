@@ -66,4 +66,4 @@ To wipe your data manually, delete the `JTdata/` folder. The app will regenerate
 
 ---
 
-Made by **@jessexlr** — find me on Discord.
+Made by **@jessexlr**.
